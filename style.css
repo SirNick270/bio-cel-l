@@ -18,8 +18,9 @@ h1,.stmt{font-family:Georgia,"Iowan Old Style",serif;font-weight:700}
 h1{font-size:2.2rem;line-height:1.1;text-align:center}
 .lead{text-align:center;color:var(--mute)}
 .sizes{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.sizes button{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px 0;font-weight:700;font-size:1.15rem}
-.sizes button.on{border-color:var(--hema);color:var(--hema);background:#F0EDFB}
+.sizes button,.langs button{background:var(--card);border:2px solid var(--line);border-radius:16px;padding:12px 0;font-weight:700;font-size:1.15rem}
+.sizes button.on,.langs button.on{border-color:var(--hema);color:var(--hema);background:#F0EDFB}
+.langs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
 .go{background:var(--ink);color:#fff;border-radius:18px;padding:18px;font-weight:700;font-size:1.1rem}
 .note{text-align:center;font-size:.85rem;color:var(--mute)}
 
